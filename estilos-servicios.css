@@ -1,0 +1,128 @@
+h2 {
+    font: normal 18px 'Segoe UI';
+    font-weight: bold;
+    color: rgb(47, 85, 151);
+}
+
+h1 {
+    font: normal 17px 'Segoe UI';
+    font-weight: bold;
+    color: rgb(47, 85, 151);
+    text-align: center;
+}
+
+P {
+    font: normal 15px 'Segoe UI';
+}
+
+li {
+    font: normal 15px 'Segoe UI';
+}
+
+.linea {
+    border-bottom: 30px solid rgb(47, 85, 151);
+    background-color: rgb(242, 242, 242);
+    height: 20px;
+}
+
+.container-general {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-subgeneral1 {
+    margin-left: 12%;
+    width: 30%;
+    flex-wrap: wrap;
+    /* margin-right: 55%;
+    margin-left: 12%;*/
+    text-align: justify;
+    background-color: rgb(242, 242, 242);
+}
+
+.container-subgeneral2 {
+    margin-left: 10%;
+    width: 30%;
+    flex-wrap: wrap;
+    /*margin-right: 55%;
+    margin-left: 12%;*/
+    text-align: justify;
+    background-color: rgb(242, 242, 242);
+}
+
+.container {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container-lista li {
+    margin-right: 5%;
+    margin-left: 5%;
+    font: normal 16px 'Segoe UI';
+    color: rgb(47, 85, 151);
+    font-weight: bold;
+}
+
+
+/*-------paginas secundarias-----*/
+
+.fondo1 {
+    height: 89vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0%;
+}
+
+.texto {
+    position: absolute;
+    top: 100px;
+    margin-left: 10%;
+    margin-right: 68%;
+    height: max-content;
+    background-color: white;
+}
+
+.texto p {
+    font: normal 18px 'Segoe UI';
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texto h2 {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container--flex1 {
+    color: white;
+    font-size: 16px;
+    font-family: 'PT Sans';
+    margin: 0px 64px;
+    overflow: hidden;
+}
+
+.social-icon__link {
+    float: right;
+    line-height: 0px;
+    margin: -10px 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.social-icon__link a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.main-header {
+    background-color: black;
+    border-bottom: 2px solid white;
+}
